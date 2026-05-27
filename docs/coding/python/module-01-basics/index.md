@@ -1,68 +1,35 @@
-# 📦 Module 01: Python Basics
+# Module 01 — The Basics
 
-> **Track:** Python Programming  
-> **Module:** 01 — Foundations of Python  
-> **Total Lessons:** 3  
-> **Recommended Duration:** ~3 hours (3 × 60 min sessions)  
-> **Difficulty:** 🟢 Beginner  
+> **Track:** Python | **Lessons:** 3 | **Duration:** ~3 hours | 🟢 Beginner
 
----
-
-## 🗺️ Module Overview
-
-This module is your launchpad into the world of Python programming. You will go from zero prior experience to writing, running, and understanding real Python code — step by step, concept by concept.
-
-By the end of this module, you will:
-
-- Understand **what Python is**, where it came from, and why millions of developers use it
-- Have a **working Python development environment** set up on your computer (VS Code) or in your browser (Replit)
-- Know how to **store, retrieve, and display data** using variables, data types, and I/O functions
-- Be comfortable with Python's **core syntax rules** — indentation, comments, and type casting
-- Perform **string operations** and format output in multiple ways
+This module covers the absolute foundation of Python. Before writing
+complex programs, you need to understand how Python thinks about
+information — how it stores it, how it transforms it, and how it
+communicates with the user.
 
 ---
 
-## 📚 Lesson Index
+## 📚 Lessons
 
-| # | Lesson Title | Key Topics | Duration |
-|---|---|---|---|
-| 01 | [Introduction to Python](./lesson-01.md) | History, features, IDEs, setup, first program | ~60 min |
-| 02 | [Variables, Data Types & I/O](./lesson-02.md) | Variables, data types, input/output, comments, indentation, typecasting, strings | ~60 min |
-| 03 | [Operators & Expressions](./lesson-03.md) | Arithmetic, comparison, logical, assignment operators, expressions | ~60 min |
-
----
-
-## 🧰 Prerequisites
-
-Before starting this module, make sure you have:
-
-- [ ] A computer or tablet with internet access
-- [ ] Basic familiarity with using a keyboard and browser
-- [ ] No prior programming knowledge required — we start from scratch!
+| # | Title | Topics | Duration |
+|---|-------|--------|----------|
+| [Lesson 01](lesson-01.md) | Welcome to Python | History, features, IDEs, setup, first program | ~60 min |
+| [Lesson 02](lesson-02.md) | Variables & Data | Variables, types, input, output, typecasting, strings | ~70 min |
+| [Lesson 03](lesson-03.md) | Control Flow | if / elif / else, comparison, logical operators | ~60 min |
 
 ---
 
-## 🏆 Module Goals
+## 🧪 Mini Project
 
-Upon completing all three lessons, you will be able to:
-
-1. Set up and use a Python development environment confidently
-2. Write Python programs that accept user input and display formatted output
-3. Perform calculations and logic using operators and expressions
-4. Debug simple errors and read Python error messages
+After all 3 lessons, build the **Student Profile Card Generator** —
+a program that collects student information and displays a formatted
+profile card using everything from this module.
 
 ---
 
-## 📂 Folder Structure
+!!! info "Prerequisites"
+    No prior coding experience needed.
+    You only need a computer and a browser (or VS Code installed).
 
-```
-module-01-basics/
-├── README.md         ← You are here
-├── lesson-01.md      ← Introduction to Python
-├── lesson-02.md      ← Variables, Data Types & I/O
-└── lesson-03.md      ← Operators & Expressions
-```
-
----
-
-*Module 01 of 06 · Python Track · CodeCraft Learning Lab*
+!!! success "Start here"
+    Open [Lesson 01 — Welcome to Python](lesson-01.md)
