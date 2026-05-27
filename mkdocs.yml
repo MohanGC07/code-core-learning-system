@@ -43,8 +43,6 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
-    - content.tooltips
-    - announce.dismiss
   logo: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg
   favicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg
   icon:
@@ -55,69 +53,46 @@ theme:
 # ============================================================
 markdown_extensions:
 
-  # Admonition blocks — !!! note, !!! warning, etc.
   - admonition
 
-  # Collapsible admonitions — ??? note
   - pymdownx.details
 
-  # Syntax highlighted code blocks
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
 
-  # Inline code highlighting
   - pymdownx.inlinehilite
 
-  # Tabbed content — === "Python"
   - pymdownx.tabbed:
       alternate_style: true
 
-  # Mermaid diagrams + code blocks — THIS IS THE KEY FIX
+  # THE KEY FIX — Mermaid wired in here
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-  # Emoji and icons
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-  # Better list handling
   - pymdownx.tasklist:
       custom_checkbox: true
 
-  # Keys like ++ctrl+c++
   - pymdownx.keys
-
-  # Mark text ==highlighted==
   - pymdownx.mark
-
-  # Strikethrough ~~text~~
   - pymdownx.tilde
-
-  # HTML attributes on elements
   - attr_list
-
-  # Markdown inside HTML blocks
   - md_in_html
-
-  # Tables
   - tables
+  - footnotes
+  - def_list
 
-  # Table of contents with anchor links
   - toc:
       permalink: true
       title: On this page
-
-  # Footnotes
-  - footnotes
-
-  # Definition lists
-  - def_list
 
 # ============================================================
 # PLUGINS
@@ -125,14 +100,13 @@ markdown_extensions:
 plugins:
   - search:
       lang: en
+  - awesome-pages
 
 # ============================================================
-# EXTRA — Mermaid JS must be loaded via extra_javascript
+# MERMAID JS — must be loaded externally
 # ============================================================
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
-
-extra_css: []
 
 extra:
   social:
@@ -140,14 +114,20 @@ extra:
       link: https://github.com/MohanGC07/code-core-learning-system
 
 # ============================================================
-# NAVIGATION
+# NAVIGATION — matched to YOUR exact folder structure
 # ============================================================
 nav:
   - Home: index.md
   - Coding:
     - Python:
+      - Overview: coding/python/module-01-basics/README.md
       - Module 01 — Basics:
-        - coding/python/module-01-basics/index.md
         - Lesson 01 — Welcome to Python: coding/python/module-01-basics/lesson-01.md
         - Lesson 02 — Variables & Data: coding/python/module-01-basics/lesson-02.md
         - Lesson 03 — Control Flow: coding/python/module-01-basics/lesson-03.md
+    - PictoBlox:
+      - Coming Soon: coding/pictoblox/index.md
+  - Robotics:
+    - Module 01 — Foundations:
+      - Lesson 01: robotics/module-01-foundations/lesson-01.md
+  - Resources: resources/index.md
