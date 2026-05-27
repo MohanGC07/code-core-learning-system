@@ -1,1 +1,8 @@
 title: Python
+nav:
+  - index.md
+  - module-01-basics
+  - module-02-control-flow
+  - module-03-functions
+  - module-04-data-structures
+  - module-05-oop

@@ -67,7 +67,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-  # THE KEY FIX — Mermaid wired in here
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -95,7 +94,8 @@ markdown_extensions:
       title: On this page
 
 # ============================================================
-# PLUGINS
+# PLUGINS — awesome-pages handles ALL navigation automatically
+# NO nav: block needed — awesome-pages reads .pages files
 # ============================================================
 plugins:
   - search:
@@ -103,31 +103,14 @@ plugins:
   - awesome-pages
 
 # ============================================================
-# MERMAID JS — must be loaded externally
+# MERMAID — init config fixes the rendering issue
 # ============================================================
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra_css: []
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/MohanGC07/code-core-learning-system
-
-# ============================================================
-# NAVIGATION — matched to YOUR exact folder structure
-# ============================================================
-nav:
-  - Home: index.md
-  - Coding:
-    - Python:
-      - Overview: coding/python/module-01-basics/README.md
-      - Module 01 — Basics:
-        - Lesson 01 — Welcome to Python: coding/python/module-01-basics/lesson-01.md
-        - Lesson 02 — Variables & Data: coding/python/module-01-basics/lesson-02.md
-        - Lesson 03 — Control Flow: coding/python/module-01-basics/lesson-03.md
-    - PictoBlox:
-      - Coming Soon: coding/pictoblox/index.md
-  - Robotics:
-    - Module 01 — Foundations:
-      - Lesson 01: robotics/module-01-foundations/lesson-01.md
-  - Resources: resources/index.md
