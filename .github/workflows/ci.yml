@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -21,8 +21,13 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
+      - name: Install MkDocs
         run: pip install mkdocs-material
 
-      - name: Deploy to GitHub Pages
+      - name: Configure Git
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: Deploy
         run: mkdocs gh-deploy --force
