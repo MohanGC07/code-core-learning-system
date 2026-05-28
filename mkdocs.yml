@@ -20,14 +20,14 @@ theme:
   name: material
   palette:
     - scheme: default
-      primary: custom
-      accent: custom
+      primary: deep purple
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Dark mode
     - scheme: slate
-      primary: custom
-      accent: custom
+      primary: deep purple
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Light mode
