@@ -99,7 +99,7 @@ timeline
 <iframe
   width="100%"
   height="415"
-  src="https://www.youtube.com/watch?v=YXwnKgSXFKE"
+  src="https://www.youtube.com/embed/x7X9w_GIm1s"
   title="Python in 100 Seconds — Fireship"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
