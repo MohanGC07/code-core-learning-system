@@ -7,15 +7,16 @@ hide:
 
 # ⚡ Code & Core Learning System
 
-> **Learn Python, Robotics, PictoBlox and AI through hands-on lessons,
-> real projects, and step-by-step guidance — completely free.**
+> **A structured, project-based learning platform for Python, Robotics, PictoBlox, and AI.**
+>
+> Learn by building — not by memorizing.
 
-[🚀 Start Learning — Python Lesson 01](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
-[📚 Browse All Tracks](coding/){ .md-button }
+[🚀 Start Python — Lesson 01](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
+[📚 Explore Learning Tracks](coding/){ .md-button }
 
 ---
 
-## 🗺️ Learning Tracks
+## 🧭 Learning Tracks
 
 <div class="grid cards" markdown>
 
@@ -23,10 +24,11 @@ hide:
 
     ---
 
-    From your first `print()` to building real applications.
-    Variables, control flow, functions, OOP and real projects.
+    Build real programming fundamentals from zero to advanced.
 
-    **5 Modules · 3 Lessons Ready · Beginner**
+    Variables, control flow, functions, OOP, and hands-on projects that simulate real-world problems.
+
+    **5 Modules · Beginner → Intermediate · Project-Based**
 
     [:octicons-arrow-right-24: Start Python](coding/python/)
 
@@ -34,10 +36,11 @@ hide:
 
     ---
 
-    Wire circuits, program sensors, and build real hardware
-    projects using Arduino from the ground up.
+    Learn how software meets hardware.
 
-    **4 Modules · 1 Lesson Ready · Beginner**
+    Work with sensors, circuits, and microcontrollers to build real embedded systems.
+
+    **4 Modules · Beginner · Hardware Projects**
 
     [:octicons-arrow-right-24: Start Robotics](robotics/)
 
@@ -45,10 +48,11 @@ hide:
 
     ---
 
-    Visual block-based coding with AI features, sensors,
-    animations and game development.
+    Visual programming with real intelligence.
 
-    **4 Modules · Coming Soon · Beginner**
+    Create animations, games, and AI-powered projects using block-based coding.
+
+    **4 Modules · Beginner · AI-Enabled Learning**
 
     [:octicons-arrow-right-24: Explore PictoBlox](coding/pictoblox/)
 
@@ -56,10 +60,11 @@ hide:
 
     ---
 
-    Cheatsheets, diagrams, reference cards and downloadable
-    materials for all tracks.
+    Reference materials designed for quick revision and classroom support.
 
-    **Cheatsheets · Diagrams · All Levels**
+    Cheatsheets, diagrams, and structured learning aids.
+
+    **All Levels · Printable & Downloadable**
 
     [:octicons-arrow-right-24: Browse Resources](resources/)
 
@@ -67,66 +72,66 @@ hide:
 
 ---
 
-## 📊 Platform at a Glance
+## 📊 Platform Overview
 
 <div class="grid cards" markdown>
 
--   **3** Learning Tracks
+-   **3** Core Learning Tracks
 
--   **15+** Lessons Total
+-   **15+** Structured Lessons
 
 -   **5** Python Modules
 
--   **100%** Free & Open
+-   **100%** Free & Open Source
 
 </div>
 
 ---
 
-## 🧭 How to Use This Platform
+## 🧠 Learning Method
 
-!!! tip "New here? Follow these 5 steps"
+!!! tip "How to learn effectively"
 
-    1. **Pick a track** from the cards above
-    2. **Open Module 01** and start at Lesson 01
-    3. **Read actively** — open your editor alongside each lesson
-    4. **Do every exercise** — typing code beats reading it every time
-    5. **Attempt the challenge** at the end of each lesson
+    1. Choose a learning track based on your interest
+    2. Start from Module 01 — Lesson 01
+    3. Code alongside every lesson (do not just read)
+    4. Complete all exercises before moving forward
+    5. Attempt challenges to test understanding
 
-!!! success "What makes this different"
-    Every lesson follows the same proven structure:
-    **concept → analogy → code → exercise → challenge → quiz.**
-    You always know what to expect and exactly what to do next.
+!!! success "Built on a proven structure"
+    Every lesson follows a consistent progression:
+    **Concept → Explanation → Code → Practice → Challenge → Quiz**
 
----
-
-## 🚀 Quick Start
-
-=== "🐍 Start Python"
-
-    **You are here →** Open your first lesson right now:
-
-    [Lesson 01 — Welcome to Python](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
-
-    No installation needed — use [Replit](https://replit.com) online.
-
-=== "🤖 Start Robotics"
-
-    **You need:**
-
-    - Arduino Uno board
-    - USB cable
-    - [Arduino IDE](https://www.arduino.cc/en/software)
-
-    [Lesson 01 — Introduction to Robotics](robotics/module-01-foundations/lesson-01/){ .md-button .md-button--primary }
-
-=== "📚 Browse Resources"
-
-    Reference materials, cheatsheets and diagrams:
-
-    [Open Resources](resources/){ .md-button .md-button--primary }
+    This ensures clarity, repetition, and real skill-building.
 
 ---
 
-*Built with ❤️ using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) ·
-[View on GitHub](https://github.com/MohanGC07/code-core-learning-system)*
+## 🚀 Start Learning Now
+
+=== "🐍 Python"
+
+    Start your programming journey with structured fundamentals:
+
+    [Begin Lesson 01 — Python Basics](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
+
+    💡 Recommended: Use Replit or VS Code for practice.
+
+=== "🤖 Robotics"
+
+    Learn physical computing step-by-step:
+
+    - Arduino Uno
+    - USB Cable
+    - Arduino IDE
+
+    [Begin Robotics Module 01](robotics/module-01-foundations/lesson-01/){ .md-button .md-button--primary }
+
+=== "📚 Resources"
+
+    Quick access learning materials:
+
+    [Open Resource Library](resources/){ .md-button .md-button--primary }
+
+---
+
+*Built with modern static site architecture using MkDocs Material · Open-source educational system*
