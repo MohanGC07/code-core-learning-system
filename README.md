@@ -220,7 +220,7 @@ Every expert was once a beginner who got confused, made mistakes, and kept going
 
 - 🐛 Found a mistake? Open an **Issue**
 - 💡 Have a topic suggestion? Start a **Discussion**
-- 📸 Built something with this? Tag it `#codecraftlab`
+- 📸 Built something with this? Tag it `#codecorelearningsystem`
 
 ---
 
