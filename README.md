@@ -1,235 +1,234 @@
 <div align="center">
 
-<br>
+<img src="docs/assets/images/logo.svg" width="80" height="80" alt="Code & Core Logo"/>
 
-# 🚀 Code-Core-Learning-System
+# Code & Core Learning System
 
-**A hands-on teaching system for Python · PictoBlox · Robotics**
+**A structured, project-based learning platform for Python, Robotics, PictoBlox, and AI**
 
-
-> *"Tell me and I forget. Teach me and I remember. Involve me and I learn."*
-> — Benjamin Franklin
-
-<br>
-
-[📘 Start Learning](#-start-here) · [🗺️ Roadmap](#️-learning-path-roadmap) · [📁 Folders](#-folder-structure) · [🏆 Projects](#-project-system) · [💡 How to Use](#-how-to-use-this-repo)
+[![Deploy MkDocs](https://github.com/MohanGC07/code-core-learning-system/actions/workflows/ci.yml/badge.svg)](https://github.com/MohanGC07/code-core-learning-system/actions/workflows/ci.yml)
+[![MkDocs Material](https://img.shields.io/badge/Built%20with-MkDocs%20Material-5e35b1?style=flat-square)](https://squidfunk.github.io/mkdocs-material/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222?style=flat-square&logo=github)](https://mohangc07.github.io/code-core-learning-system/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Lessons](https://img.shields.io/badge/Lessons-15%2B-blue?style=flat-square)](#)
 
 <br>
+
+**[🌐 Live Site](https://mohangc07.github.io/code-core-learning-system/) · [📘 Start Learning](https://mohangc07.github.io/code-core-learning-system/coding/python/module-01-basics/lesson-01/) · [🤖 Robotics](https://mohangc07.github.io/code-core-learning-system/robotics/) · [📚 Resources](https://mohangc07.github.io/code-core-learning-system/resources/)**
 
 </div>
 
 ---
 
-## 👋 Welcome, Learner!
+## 📖 About
 
-This is **not** a boring textbook. This is a **lab** — a place where you *build*, *break*, *fix*, and *create*.
+**Code & Core Learning System** is an open-source, structured learning platform built with MkDocs Material and hosted on GitHub Pages. It is designed for students in grades 6–10 who want to learn programming, robotics, and AI from scratch — through hands-on lessons, real projects, and a consistent teaching structure.
 
-Whether you're writing your first Python line, making an animation in PictoBlox, or wiring up your first Arduino circuit — you are in the right place.
+Every lesson follows the same proven format:
 
-Every lesson here follows a proven structure:
+```
+Concept → Analogy → Code Example → Exercise → Challenge → Quiz
+```
 
-| | |
-|---|---|
-| 🎯 **Clear goals** | So you always know *why* you're learning something |
-| 🧠 **Simple analogies** | Real-world comparisons, not textbook definitions |
-| 💻 **Runnable code** | Examples you can try immediately |
-| 🏋️ **Exercises** | Hands-on practice to build real skill |
-| 🔥 **Challenges** | Harder tasks to push your limits |
-| 🧩 **Projects** | Portfolio-ready builds after every module |
+No fluff. No theory dumps. Just structured, practical learning.
 
 ---
 
-## 🗺️ Learning Path Roadmap
+## 🌐 Live Platform
 
-### 🐍 Python Track — *Beginner → Intermediate*
-
-```
-Module 01 ──► Basics           Variables, data types, input/output
-Module 02 ──► Control Flow     If/else, for loops, while loops
-Module 03 ──► Functions        Defining, calling, scope, return values
-Module 04 ──► Data Structures  Lists, dictionaries, tuples
-Module 05 ──► OOP              Classes, objects, methods, inheritance
-                │
-                ▼
-        Mini Projects (after each module)
-                │
-                ▼
-    🏆 Capstone: Quiz Master App
-```
-
-### 🎮 PictoBlox Track — *Visual Coding → AI*
-
-```
-Module 01 ──► Introduction     Interface, sprites, stage, costumes
-Module 02 ──► Motion & Events  Movement, sound, keyboard triggers
-Module 03 ──► Sensors          Webcam, mouse, distance detection
-Module 04 ──► AI Features      Face detection, speech, ML blocks
-                │
-                ▼
-        Mini Projects (after each module)
-                │
-                ▼
-    🏆 Capstone: Full Game with Levels & Score
-```
-
-### 🤖 Robotics Track — *Arduino Basics → Real-World*
-
-```
-Module 01 ──► Arduino Basics   Setup, digital I/O, LEDs, serial monitor
-Module 02 ──► Sensors          Ultrasonic, IR, temperature, light
-Module 03 ──► Actuators        Motors, servos, buzzers
-Module 04 ──► Real-World       Automation, smart devices, integration
-                │
-                ▼
-        Mini Projects (after each module)
-                │
-                ▼
-    🏆 Capstone: Smart Distance Alert System
-```
+> **[https://mohangc07.github.io/code-core-learning-system/](https://mohangc07.github.io/code-core-learning-system/)**
 
 ---
 
-## 📁 Folder Structure
+## 🗺️ Learning Tracks
+
+### 🐍 Python Programming
+> Beginner → Intermediate · 5 Modules · Project-Based
+
+| Module | Topics | Status |
+|--------|--------|--------|
+| Module 01 — Basics | Variables, data types, I/O, operators | ✅ Complete |
+| Module 02 — Control Flow | if/elif/else, loops, conditions | 🚧 In Progress |
+| Module 03 — Functions | Defining, calling, scope, return | 📅 Planned |
+| Module 04 — Data Structures | Lists, dicts, tuples, sets | 📅 Planned |
+| Module 05 — OOP | Classes, objects, inheritance | 📅 Planned |
+
+**Capstone:** Quiz Master Application
+
+---
+
+### 🤖 Robotics & Arduino
+> Beginner · 4 Modules · Hardware Projects
+
+| Module | Topics | Status |
+|--------|--------|--------|
+| Module 01 — Foundations | Robot components, IPO model, Arduino intro | ✅ Complete |
+| Module 02 — Sensors | Ultrasonic, IR, temperature, light | 📅 Planned |
+| Module 03 — Actuators | Motors, servos, buzzers | 📅 Planned |
+| Module 04 — Real World | Automation, smart devices | 📅 Planned |
+
+**Capstone:** Smart Distance Alert System
+
+---
+
+### 🎮 PictoBlox & AI
+> Beginner · 4 Modules · AI-Enabled
+
+| Module | Topics | Status |
+|--------|--------|--------|
+| Module 01 — Introduction | Interface, sprites, stage | 📅 Planned |
+| Module 02 — Motion & Events | Movement, sound, keyboard | 📅 Planned |
+| Module 03 — Sensors | Webcam, mouse, detection | 📅 Planned |
+| Module 04 — AI Features | Face detection, speech, ML | 📅 Planned |
+
+**Capstone:** Full Animated Game with Score & Levels
+
+---
+
+## 📁 Repository Structure
 
 ```
 code-core-learning-system/
 │
-├── 📂 python/
-│   ├── module-01-basics/
-│   │   ├── README.md               ← Module overview & lesson index
-│   │   ├── lesson-01.md
-│   │   ├── lesson-02.md
-│   │   └── lesson-03.md
-│   ├── module-02-control-flow/
-│   ├── module-03-functions/
-│   ├── module-04-data-structures/
-│   ├── module-05-oop/
-│   └── projects/
-│       ├── mini/                   ← One mini project per module
-│       └── capstone/               ← Final Python project
+├── 📂 docs/                          ← All site content lives here
+│   ├── index.md                      ← Homepage
+│   │
+│   ├── 📂 coding/
+│   │   ├── 📂 python/
+│   │   │   ├── 📂 module-01-basics/
+│   │   │   │   ├── index.md          ← Module overview
+│   │   │   │   ├── lesson-01.md      ← Welcome to Python
+│   │   │   │   ├── lesson-02.md      ← Variables & Data Types
+│   │   │   │   ├── lesson-03.md      ← Operators & Expressions
+│   │   │   │   └── 📂 projects/
+│   │   │   │       ├── index.md      ← Project hub
+│   │   │   │       ├── mini-01.md    ← Personal Profile Card
+│   │   │   │       ├── mini-02.md    ← Student Report Card
+│   │   │   │       ├── mini-03.md    ← Restaurant Bill Calculator
+│   │   │   │       └── capstone.md   ← Profile Generator App
+│   │   │   └── module-02 to 05/
+│   │   └── 📂 pictoblox/
+│   │
+│   ├── 📂 robotics/
+│   │   └── 📂 module-01-foundations/
+│   │       ├── lesson-01.md          ← Introduction to Robotics
+│   │       └── 📂 projects/
+│   │           ├── mini-01.md        ← LED Blink Circuit
+│   │           └── capstone.md       ← Smart Distance Alert
+│   │
+│   ├── 📂 resources/
+│   │   ├── 📂 cheatsheets/
+│   │   └── 📂 diagrams/
+│   │
+│   └── 📂 assets/
+│       ├── 📂 css/extra.css          ← Custom theme styles
+│       ├── 📂 js/mermaid-init.js     ← Mermaid diagram init
+│       └── 📂 images/logo.svg        ← Site logo
 │
-├── 📂 pictoblox/
-│   ├── module-01-intro/
-│   ├── module-02-motion-events/
-│   ├── module-03-sensors/
-│   ├── module-04-ai-features/
-│   └── projects/
-│       ├── mini/
-│       └── capstone/
+├── 📂 .github/workflows/
+│   └── ci.yml                        ← Auto-deploy to GitHub Pages
 │
-├── 📂 robotics/
-│   ├── module-01-arduino-basics/
-│   ├── module-02-sensors/
-│   ├── module-03-actuators/
-│   ├── module-04-real-world/
-│   └── projects/
-│       ├── mini/
-│       └── capstone/
-│
-└── 📂 resources/
-    ├── cheatsheets/                ← Quick reference cards (print-friendly)
-    ├── diagrams/                   ← Visual explanations & circuit diagrams
-    ├── slides/                     ← Classroom presentation slides
-    ├── glossary/                   ← Definitions of key terms
-    ├── LESSON_TEMPLATE.md          ← Template for writing new lessons
-    └── PROJECT_TEMPLATE.md         ← Template for writing new projects
+└── mkdocs.yml                        ← MkDocs configuration
 ```
 
 ---
 
-## 🟢 Start Here
+## 🧱 Tech Stack
 
-> **New to this repo? Follow 4 steps:**
-
-**Step 1 — Pick your track**
-
-| Track | Best for | Where to start |
-|---|---|---|
-| 🐍 Python | Complete beginners to coding | `python/module-01-basics/lesson-01.md` |
-| 🎮 PictoBlox | Visual & creative learners | `pictoblox/module-01-intro/lesson-01.md` |
-| 🤖 Robotics | Hardware & tinkering enthusiasts | `robotics/module-01-arduino-basics/lesson-01.md` |
-
-**Step 2 — Open lesson 01**
-
-Each module folder has a `README.md` with the lesson list. Start with `lesson-01.md` and go in order.
-
-**Step 3 — Do the exercise**
-
-Every lesson ends with a hands-on exercise. Don't skip it — doing beats reading, every time.
-
-**Step 4 — Attempt the challenge**
-
-After the exercise, there's a harder challenge task. It's okay if it takes longer — that's the point.
+| Technology | Purpose |
+|---|---|
+| [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) | Site framework and theme |
+| [GitHub Pages](https://pages.github.com/) | Free hosting |
+| [GitHub Actions](https://github.com/features/actions) | Auto-deployment on push |
+| [Mermaid.js](https://mermaid.js.org/) | Diagrams inside Markdown |
+| [awesome-pages plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin) | Auto sidebar navigation |
+| Markdown + pymdownx | Lesson content and formatting |
 
 ---
 
-## 💡 How to Use This Repo
+## 🚀 Run Locally
 
-**For Students:**
-- 📖 Read actively — open your editor alongside the lesson
-- ⌨️ Type the code — don't copy-paste (typing builds memory)
-- 💥 Break things on purpose — change values, delete lines, see what happens
-- 📚 Check the glossary when you see an unfamiliar word
-- ❓ Open an Issue if something doesn't make sense
+**Prerequisites:** Python 3.8+
 
-**For Teachers:**
-- 📋 Use `resources/LESSON_TEMPLATE.md` to write new lessons quickly
-- 🧪 Use `resources/PROJECT_TEMPLATE.md` for mini and capstone projects
-- 🏷️ See `resources/MAINTENANCE_GUIDE.md` for the full repo workflow
+```bash
+# 1. Clone the repository
+git clone https://github.com/MohanGC07/code-core-learning-system.git
+cd code-core-learning-system
 
----
+# 2. Install dependencies
+pip install mkdocs-material mkdocs-awesome-pages-plugin
 
-## 🏆 Project System
+# 3. Serve locally
+mkdocs serve
 
-After every module, students build a **mini project** using what they just learned.
-After all modules in a track, students tackle the **capstone** — a full portfolio-worthy build.
-
-| Track | Capstone Project | Skills demonstrated |
-|---|---|---|
-| 🐍 Python | Quiz Master App | Functions, lists, dicts, loops, input/output |
-| 🎮 PictoBlox | Animated Game with Score & Levels | Sprites, events, variables, conditions |
-| 🤖 Robotics | Smart Distance Alert System | Sensors, LEDs, buzzer, threshold logic |
+# 4. Open in browser
+# http://127.0.0.1:8000
+```
 
 ---
 
-## 🌱 Progress Tracker
+## ✍️ Writing a New Lesson
 
-| Milestone | Goal | Status |
-|---|---|---|
-| 🌱 Seed | First 5 lessons published | ⬜ |
-| 🌿 Sprout | Full Module 01 across all tracks | ⬜ |
-| 🌳 Tree | All 4 modules per track complete | ⬜ |
-| 🍎 Harvest | All capstone projects documented | ⬜ |
-| 🚀 Launch | 50+ stars or student forks | ⬜ |
+1. Copy `docs/resources/LESSON_TEMPLATE.md`
+2. Place it in the correct module folder
+3. Update the module's `.pages` file to include it
+4. Push — GitHub Actions deploys automatically
 
----
-
-## 🏅 Motivation
-
-You don't need to be a genius to learn to code.
-
-You need **curiosity** and **persistence**.
-
-Every expert was once a beginner who got confused, made mistakes, and kept going anyway. The only difference between you and someone who "knows programming" is time and practice.
-
-**Start today. One lesson. That's it.**
+**Lesson structure:**
+```
+Frontmatter → Info cards → Objectives → Concept →
+Core Content → Activity → Exercise → Challenge → Quiz →
+Summary → Next lesson link
+```
 
 ---
 
-## 📬 Questions & Contributions
+## 📦 Deployment
 
-- 🐛 Found a mistake? Open an **Issue**
-- 💡 Have a topic suggestion? Start a **Discussion**
-- 📸 Built something with this? Tag it `#codecorelearningsystem`
+Every push to `main` automatically triggers GitHub Actions:
+
+```yaml
+Push to main
+    ↓
+GitHub Actions (ci.yml)
+    ↓
+pip install mkdocs-material + awesome-pages
+    ↓
+mkdocs gh-deploy --force
+    ↓
+Live at GitHub Pages
+```
+
+---
+
+## 🤝 Contributing
+
+This is an actively maintained educational project.
+
+- 🐛 **Found an error?** Open an Issue
+- 💡 **Lesson suggestion?** Start a Discussion  
+- 📝 **Want to contribute content?** Fork → branch → PR
+
+---
+
+## 📄 License
+
+MIT License — free to use, adapt, and share with attribution.
+
+---
+
+## 👤 Author
+
+**Mohan G.C**
+
+[![GitHub](https://img.shields.io/badge/GitHub-MohanGC07-181717?style=flat-square&logo=github)](https://github.com/MohanGC07)
 
 ---
 
 <div align="center">
-<br>
 
-Made with ❤️ for curious minds everywhere
+Built with ❤️ using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
 
-*Happy coding!* 🚀
+*Start learning today — one lesson at a time.*
 
-<br>
 </div>
