@@ -1,0 +1,140 @@
+/* =============================================
+   Code & Core Learning System
+   Professional minimal theme
+   ============================================= */
+
+/* --- Brand --- */
+[data-md-color-primary="deep-purple"] {
+  --md-primary-fg-color:        #5e35b1;
+  --md-primary-fg-color--light: #7e57c2;
+  --md-primary-fg-color--dark:  #4527a0;
+}
+
+/* --- Hero block --- */
+.hero-block {
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 0.5rem;
+}
+
+.hero-block h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+.hero-block p {
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color--light);
+  max-width: 520px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.7;
+}
+
+/* --- Make hero buttons inline and compact --- */
+.hero-block .md-button {
+  display: inline-block !important;
+  width: auto !important;
+  min-width: 160px;
+  margin: 0 0.4rem;
+}
+
+/* --- Stats row --- */
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  padding: 1.75rem 1rem;
+  background: var(--md-code-bg-color);
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.stat { min-width: 70px; }
+
+.stat-n {
+  display: block;
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--md-primary-fg-color);
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.stat-l {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* --- Track cards --- */
+.md-typeset .grid.cards > ul > li {
+  border-top: 3px solid var(--md-primary-fg-color) !important;
+  border-radius: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
+}
+
+/* --- Logo in header --- */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 30px;
+  width: 30px;
+  border-radius: 6px;
+}
+
+/* --- Tighten sidebar top gap --- */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  padding-top: 0.25rem;
+}
+
+/* --- Admonitions --- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+}
+
+/* --- Code blocks --- */
+.md-typeset pre > code {
+  border-radius: 6px;
+  font-size: 0.84rem;
+}
+
+/* --- Video embed --- */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
+/* --- Mobile --- */
+@media (max-width: 600px) {
+  .hero-block h1         { font-size: 1.7rem; }
+  .hero-block p          { font-size: 0.95rem; }
+  .hero-block .md-button { display: block !important; width: 100% !important; margin: 0.4rem 0; }
+  .stats-row             { gap: 1.25rem; }
+  .stat-n                { font-size: 1.4rem; }
+}
