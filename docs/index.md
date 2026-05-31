@@ -9,11 +9,48 @@ hide:
 
 # Code & Core Learning System
 
-A structured, hands-on learning platform for **Python**, **Robotics**,
-**PictoBlox**, and **AI** — built for students and beginners.
+A structured, hands-on platform for learning **Python**, **Robotics**,
+**PictoBlox**, and **AI** — built for students and beginners who want
+to learn by building real things.
 
 [🚀 Start Learning](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
-[Browse Tracks](coding/){ .md-button }
+[📚 Browse Tracks](coding/){ .md-button }
+
+</div>
+
+---
+
+## Why This Platform?
+
+<div class="grid cards" markdown>
+
+-   🎯 **Goal-first lessons**
+
+    ---
+
+    Every lesson starts with clear objectives.
+    You always know what you are learning and why.
+
+-   🧠 **Concept + Analogy**
+
+    ---
+
+    Every concept is explained with a real-world analogy
+    before any code is shown.
+
+-   💻 **Code you actually run**
+
+    ---
+
+    Every lesson has working, commented code examples
+    you can run immediately in Replit or VS Code.
+
+-   🏆 **Projects after every lesson**
+
+    ---
+
+    Mini projects after each lesson. A capstone project
+    after each module. Build a real portfolio as you learn.
 
 </div>
 
@@ -23,25 +60,46 @@ A structured, hands-on learning platform for **Python**, **Robotics**,
 
 <div class="grid cards" markdown>
 
--   🐍 **Python**
+-   🐍 **Python Programming**
 
     ---
 
-    Build real programming skills from zero.
-    Variables, logic, functions, OOP, and projects.
+    From your first `print()` to Object-Oriented Programming.
+    Variables, control flow, functions, data structures, and
+    real capstone projects.
 
-    `Beginner` · `5 Modules` · `3 Lessons Ready`
+    ---
+
+    **5 Modules · Beginner → Intermediate**
+
+    | Module | Status |
+    |--------|--------|
+    | 01 — Basics | ✅ Ready |
+    | 02 — Control Flow | 🚧 Soon |
+    | 03 — Functions | 📅 Planned |
+    | 04 — Data Structures | 📅 Planned |
+    | 05 — OOP | 📅 Planned |
 
     [:octicons-arrow-right-24: Start Python](coding/python/)
 
--   🤖 **Robotics**
+-   🤖 **Robotics & Arduino**
 
     ---
 
-    Software meets hardware.
-    Sensors, circuits, and Arduino microcontrollers.
+    Software meets hardware. Wire circuits, program sensors,
+    and build real embedded systems using Arduino
+    from the ground up.
 
-    `Beginner` · `4 Modules` · `1 Lesson Ready`
+    ---
+
+    **4 Modules · Beginner**
+
+    | Module | Status |
+    |--------|--------|
+    | 01 — Foundations | ✅ Ready |
+    | 02 — Sensors | 📅 Planned |
+    | 03 — Actuators | 📅 Planned |
+    | 04 — Real World | 📅 Planned |
 
     [:octicons-arrow-right-24: Start Robotics](robotics/)
 
@@ -49,27 +107,45 @@ A structured, hands-on learning platform for **Python**, **Robotics**,
 
     ---
 
-    Visual block-based coding with AI and sensor features.
-    Animations, games, and AI projects.
+    Visual block-based coding with AI features, sensors,
+    animations, and game development. No prior experience
+    needed.
 
-    `Beginner` · `4 Modules` · `Coming Soon`
+    ---
 
-    [:octicons-arrow-right-24: Explore](coding/pictoblox/)
+    **4 Modules · Beginner**
+
+    | Module | Status |
+    |--------|--------|
+    | 01 — Introduction | 📅 Planned |
+    | 02 — Motion & Events | 📅 Planned |
+    | 03 — Sensors | 📅 Planned |
+    | 04 — AI Features | 📅 Planned |
+
+    [:octicons-arrow-right-24: Explore PictoBlox](coding/pictoblox/)
 
 -   📚 **Resources**
 
     ---
 
-    Cheatsheets, diagrams, and reference materials
-    for all tracks and levels.
+    Cheatsheets, diagrams, circuit references, and printable
+    study aids for all tracks and all levels.
 
-    `All Levels` · `Printable`
+    ---
 
-    [:octicons-arrow-right-24: Browse](resources/)
+    | Resource | Status |
+    |--------|--------|
+    | Python Cheatsheet | 🚧 Soon |
+    | Arduino Pin Reference | 🚧 Soon |
+    | Diagrams Library | 📅 Planned |
+
+    [:octicons-arrow-right-24: Browse Resources](resources/)
 
 </div>
 
 ---
+
+## Platform at a Glance
 
 <div class="stats-row" markdown>
 
@@ -84,8 +160,13 @@ A structured, hands-on learning platform for **Python**, **Robotics**,
 </div>
 
 <div class="stat" markdown>
-<span class="stat-n">5</span>
-<span class="stat-l">Modules</span>
+<span class="stat-n">10+</span>
+<span class="stat-l">Projects</span>
+</div>
+
+<div class="stat" markdown>
+<span class="stat-n">3</span>
+<span class="stat-l">Capstones</span>
 </div>
 
 <div class="stat" markdown>
@@ -97,51 +178,110 @@ A structured, hands-on learning platform for **Python**, **Robotics**,
 
 ---
 
-## How It Works
+## How Every Lesson Works
 
-!!! tip "Simple 5-step process"
+!!! abstract "The lesson structure — same every time"
 
-    1. **Pick a track** that matches your interest or goal
-    2. **Open Module 01** — every track starts from zero
-    3. **Code alongside** the lesson — never just read
-    4. **Complete every exercise** before moving forward
-    5. **Attempt the challenge** — that's where real learning happens
+    ```
+    ① Objectives    → What you will be able to do
+    ② Concept       → Plain-language explanation
+    ③ Analogy       → Real-world comparison
+    ④ Code Example  → Working, commented code
+    ⑤ Activity      → Step-by-step guided build
+    ⑥ Exercise      → Solo practice task
+    ⑦ Challenge     → Harder extension problem
+    ⑧ Quiz          → 5-question self-check
+    ⑨ Summary       → Key takeaways table
+    ⑩ Next Lesson   → Where to go next
+    ```
 
-!!! success "Every lesson follows the same structure"
-    Concept → Analogy → Code Example → Exercise → Challenge → Quiz
-
-    You always know what to expect. No confusion. No guessing.
+    You always know what to expect.
+    No confusion. No guessing. No information dumps.
 
 ---
 
-## Quick Start
+## The Project System
 
-=== "🐍 Python"
+!!! success "Every module has a project path"
 
-    No hardware needed. Start in your browser right now.
+    After **each lesson** → build a **Mini Project** using what you just learned.
+
+    After **all lessons** in a module → build a **Capstone Project** that combines everything.
+
+    | Track | Capstone Project |
+    |-------|-----------------|
+    | 🐍 Python | Profile Generator App |
+    | 🤖 Robotics | Smart Distance Alert System |
+    | 🎮 PictoBlox | Animated Game with Score & Levels |
+
+---
+
+## Start Now
+
+=== "🐍 I want to learn Python"
+
+    !!! tip "No installation needed"
+        Use [Replit](https://replit.com) — free, online, works on any device.
+        Or install VS Code + Python for a professional offline setup.
+
+    **Your path:**
+
+    ```
+    Lesson 01 → Lesson 02 → Lesson 03
+         ↓           ↓           ↓
+      Mini 01     Mini 02     Mini 03
+                                  ↓
+                            Capstone Project
+    ```
 
     [Begin Lesson 01 — Welcome to Python](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
 
-    !!! info ""
-        Use [Replit](https://replit.com) online — no installation needed.
+=== "🤖 I want to learn Robotics"
 
-=== "🤖 Robotics"
+    !!! info "What you need before starting"
+        - Arduino Uno board
+        - USB cable
+        - [Arduino IDE](https://www.arduino.cc/en/software) installed free
 
-    **You will need:**
+    **Your path:**
 
-    - Arduino Uno board + USB cable
-    - [Arduino IDE](https://www.arduino.cc/en/software) installed
+    ```
+    Lesson 01 → Mini Project → Capstone
+    Introduction   LED Blink    Smart Alert System
+    to Robotics
+    ```
 
     [Begin Lesson 01 — Introduction to Robotics](robotics/module-01-foundations/lesson-01/){ .md-button .md-button--primary }
 
-=== "📚 Resources"
+=== "📚 I just need resources"
 
-    Cheatsheets and diagrams for all tracks:
+    Quick reference materials for all tracks:
 
     [Open Resource Library](resources/){ .md-button .md-button--primary }
 
 ---
 
-*Open-source educational platform · Built with
+## How to Use This Platform
+
+!!! question "New here? Read this first"
+
+    | Step | What to do |
+    |------|------------|
+    | 1 | Pick one track — don't start multiple at once |
+    | 2 | Open Module 01 → Lesson 01 |
+    | 3 | Read the lesson with your editor open beside it |
+    | 4 | **Type** the code — never copy-paste |
+    | 5 | Complete the exercise before moving forward |
+    | 6 | Attempt the challenge — it's okay if it's hard |
+    | 7 | Build the mini project after each lesson |
+    | 8 | Build the capstone after finishing all lessons |
+
+---
+
+<div align="center" markdown>
+
+*Open-source · Free forever · Built with
 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) ·
 [View on GitHub](https://github.com/MohanGC07/code-core-learning-system)*
+
+</div>
