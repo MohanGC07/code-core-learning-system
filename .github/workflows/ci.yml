@@ -14,6 +14,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history, not shallow
+          clean: true      # Force clean working tree
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -22,9 +25,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material[imaging]
-          pip install mkdocs-awesome-pages-plugin
-          pip install mkdocs-minify-plugin
+          pip install --upgrade mkdocs-material[imaging]
+          pip install --upgrade mkdocs-awesome-pages-plugin
+          pip install --upgrade mkdocs-minify-plugin
+
+      - name: Verify mkdocs.yml
+        run: |
+          echo "=== Checking mkdocs.yml line 70-76 ==="
+          sed -n '70,76p' mkdocs.yml
+          echo "=== Checking for python/name tags ==="
+          grep -n "python/name" mkdocs.yml || echo "No python/name tags found - GOOD"
 
       - name: Configure Git
         run: |
