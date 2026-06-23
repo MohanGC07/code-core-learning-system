@@ -12,11 +12,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Clean workspace
+        run: |
+          rm -rf *
+          rm -rf .*
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history, not shallow
-          clean: true      # Force clean working tree
+          fetch-depth: 0
+
+      - name: Verify overrides folder
+        run: |
+          echo "=== Contents of docs/overrides ==="
+          ls -la docs/overrides/
+          echo "=== Any README files? ==="
+          find . -name "README.md" -path "*/overrides/*" || echo "No overrides README found"
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -31,10 +42,10 @@ jobs:
 
       - name: Verify mkdocs.yml
         run: |
-          echo "=== Checking mkdocs.yml line 70-76 ==="
+          echo "=== Line 70-76 ==="
           sed -n '70,76p' mkdocs.yml
-          echo "=== Checking for python/name tags ==="
-          grep -n "python/name" mkdocs.yml || echo "No python/name tags found - GOOD"
+          echo "=== Any python/name tags? ==="
+          grep -n "python/name" mkdocs.yml || echo "None found"
 
       - name: Configure Git
         run: |
