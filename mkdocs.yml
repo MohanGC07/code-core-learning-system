@@ -68,9 +68,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.emoji
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.keys
