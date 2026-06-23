@@ -93,9 +93,9 @@ plugins:
       minify_html: true
   - social:
       cards: true
-      cards_color:
-        fill: "#5E35B1"
-        text: "#FFFFFF"
+      cards_layout_options:
+        background_color: "#5E35B1"
+        color: "#FFFFFF"
 
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
@@ -106,6 +106,7 @@ extra_javascript:
 extra_css:
   - assets/css/extra.css
   - https://pyscript.net/releases/2024.1.1/core.css
+
 extra:
   generator: false
   analytics:
