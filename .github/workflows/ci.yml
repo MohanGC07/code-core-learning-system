@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install "mkdocs-material[imaging]"
+          pip install mkdocs-material[imaging]
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-minify-plugin
 
