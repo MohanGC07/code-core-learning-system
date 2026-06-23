@@ -4,44 +4,48 @@ site_description: Learn Coding, Robotics, AI and Technology step by step
 site_author: Mohan G.C
 
 docs_dir: docs
+
 theme:
   name: material
-  #custom_dir: docs/overrides
+  custom_dir: docs/overrides
   palette:
     - scheme: default
       primary: deep purple
       accent: indigo
       toggle:
         icon: material/weather-night
-        name: Dark mode
+        name: Switch to dark mode
     - scheme: slate
       primary: deep purple
       accent: indigo
       toggle:
         icon: material/weather-sunny
-        name: Light mode
+        name: Switch to light mode
   font:
     text: Inter
     code: JetBrains Mono
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.indexes
     - navigation.footer
+    - navigation.path
     - search.highlight
     - search.share
     - search.suggest
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
+    - content.tooltips
     - announce.dismiss
     - header.autohide
     - toc.follow
     - toc.integrate
   logo: assets/images/logo.svg
-  favicon: assets/images/logo.svg
+  favicon: assets/images/favicon.png
   icon:
     repo: fontawesome/brands/github
 
@@ -66,7 +70,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_generator: !!python:name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.keys
@@ -85,15 +89,33 @@ plugins:
   - search:
       lang: en
   - awesome-pages
+  - minify:
+      minify_html: true
+  - social:
+      cards: true
+      cards_color:
+        fill: "#5E35B1"
+        text: "#FFFFFF"
 
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
   - assets/js/mermaid-init.js
+  - https://pyscript.net/releases/2024.1.1/core.js
+  - assets/js/pyscript-init.js
 
 extra_css:
   - assets/css/extra.css
-
+  - https://pyscript.net/releases/2024.1.1/core.css
 extra:
+  generator: false
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/MohanGC07/code-core-learning-system
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/mohangc
+    - icon: fontawesome/solid/envelope
+      link: mailto:mohan@example.com
+  copyright: Copyright &copy; 2026 Mohan G.C

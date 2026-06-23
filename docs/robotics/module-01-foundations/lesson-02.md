@@ -103,6 +103,9 @@ flowchart LR
     style I   fill:#2e7d32,color:#fff,stroke:none
     style R   fill:#b71c1c,color:#fff,stroke:none
     style eq  fill:#4a148c,color:#fff,stroke:none
+    ![alt text](image.png)
+
+    ![alt text](image-1.png)
 ```
 
 **The formula:**
@@ -154,6 +157,8 @@ I = 0.023A = 23mA
 
         style BAT fill:#f57f17,color:#fff,stroke:none
         style LED fill:#1565c0,color:#fff,stroke:none
+
+        ![alt text](image-2.png)
     ```
 
     **Rules:**
@@ -187,6 +192,8 @@ I = 0.023A = 23mA
         style LED3 fill:#1565c0,color:#fff,stroke:none
         style node1 fill:#333,stroke:none
         style node2 fill:#333,stroke:none
+
+        ![alt text](image-3.png)
     ```
 
     **Rules:**
@@ -222,7 +229,7 @@ they only respond to the current and voltage applied to them.
 ```mermaid
 flowchart LR
     A["Fixed\nResistor"] --- B["Variable\n(Potentiometer)"] --- C["Thermistor\n(Temperature)"]
-
+    ![alt text](image-4.png)  ![alt text](image-5.png)           ![alt text](image-6.png)
     style A fill:#2e7d32,color:#fff,stroke:none
     style B fill:#1565c0,color:#fff,stroke:none
     style C fill:#b71c1c,color:#fff,stroke:none
@@ -237,6 +244,7 @@ flowchart LR
 **Reading the Resistor Colour Code:**
 
 ```
+![alt text](image-7.png)
 Band 1   Band 2   Band 3 (Multiplier)   Band 4 (Tolerance)
   Red      Red         Brown                  Gold
 
@@ -269,6 +277,8 @@ rechargeable battery that charges and discharges very quickly.
 | **Ceramic** | No | 1pF – 100nF | Noise filtering, timing |
 | **Electrolytic** | Yes (+/- legs) | 1µF – 10,000µF | Power supply smoothing |
 
+![alt text](image-8.png)
+
 !!! warning "Electrolytic capacitors are polarised"
     The longer leg is positive (+). Connect the wrong way around
     and the capacitor can overheat or burst.
@@ -293,6 +303,8 @@ flowchart LR
     style D  fill:#4a148c,color:#fff,stroke:none
     style B  fill:#2e7d32,color:#fff,stroke:none
     style E  fill:#b71c1c,color:#fff,stroke:none
+
+    ![alt text](image-9.png)
 ```
 
 | Type | Function | Example use |
@@ -304,6 +316,7 @@ flowchart LR
 **About LEDs:**
 
 - Polarised — longer leg is positive (Anode), shorter is negative (Cathode)
+- ![alt text](image-10.png)
 - Typical forward voltage: 2V (red/green) to 3.4V (blue/white)
 - **Always use a current-limiting resistor** — never connect directly to 5V
 
@@ -328,6 +341,8 @@ flowchart TD
 
     style T    fill:#4a148c,color:#fff,stroke:none
     style BASE fill:#1565c0,color:#fff,stroke:none
+
+    ![alt text](image-11.png)
 ```
 
 | Terminal | Role |
@@ -358,6 +373,7 @@ switch a 500mA motor circuit on and off.
 
 **Definition:** A small chip containing many electronic components
 (transistors, resistors, capacitors) built into one package.
+![alt text](image-12.png)
 
 | IC | Function | Arduino Use |
 |---|---|---|
