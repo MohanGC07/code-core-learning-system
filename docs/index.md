@@ -5,7 +5,7 @@ hide:
   - toc
 ---
 
-<div class="hero-block" markdown>
+&lt;div class="hero-block" markdown&gt;
 
 # Code & Core Learning System
 
@@ -13,54 +13,54 @@ A structured, hands-on platform for learning **Python**, **Robotics**,
 **PictoBlox**, and **AI** — built for students and beginners who want
 to learn by building real things.
 
-[🚀 Start Learning](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
-[📚 Browse Tracks](coding/){ .md-button }
+[🚀 Start Learning](coding/python/module-01-basics/lesson-01.md){ .md-button .md-button--primary }
+[📚 Browse Tracks](coding/index.md){ .md-button }
 
-</div>
+&lt;/div&gt;
 
 ---
 
 ## Why This Platform?
 
-<div class="grid cards" markdown>
+&lt;div class="grid cards" markdown&gt;
 
--   🎯 **Goal-first lessons**
+-   :fontawesome-solid-bullseye:{ .lg .middle } **Goal-first lessons**
 
     ---
 
     Every lesson starts with clear objectives.
     You always know what you are learning and why.
 
--   🧠 **Concept + Analogy**
+-   :fontawesome-solid-brain:{ .lg .middle } **Concept + Analogy**
 
     ---
 
     Every concept is explained with a real-world analogy
     before any code is shown.
 
--   💻 **Code you actually run**
+-   :fontawesome-solid-laptop-code:{ .lg .middle } **Code you actually run**
 
     ---
 
     Every lesson has working, commented code examples
-    you can run immediately in Replit or VS Code.
+    you can run immediately in your browser.
 
--   🏆 **Projects after every lesson**
+-   :fontawesome-solid-trophy:{ .lg .middle } **Projects after every lesson**
 
     ---
 
     Mini projects after each lesson. A capstone project
     after each module. Build a real portfolio as you learn.
 
-</div>
+&lt;/div&gt;
 
 ---
 
 ## Learning Tracks
 
-<div class="grid cards" markdown>
+&lt;div class="grid cards" markdown&gt;
 
--   🐍 **Python Programming**
+-   :fontawesome-brands-python:{ .lg .middle } **Python Programming**
 
     ---
 
@@ -72,17 +72,19 @@ to learn by building real things.
 
     **5 Modules · Beginner → Intermediate**
 
+    &lt;div class="progress-bar"&gt;&lt;div class="progress-bar-fill" style="width: 20%"&gt;&lt;/div&gt;&lt;/div&gt;
+
     | Module | Status |
     |--------|--------|
-    | 01 — Basics | ✅ Ready |
-    | 02 — Control Flow | 🚧 Soon |
-    | 03 — Functions | 📅 Planned |
-    | 04 — Data Structures | 📅 Planned |
-    | 05 — OOP | 📅 Planned |
+    | 01 — Basics | :material-check-circle: Ready |
+    | 02 — Control Flow | :material-progress-clock: Soon |
+    | 03 — Functions | :material-calendar-blank: Planned |
+    | 04 — Data Structures | :material-calendar-blank: Planned |
+    | 05 — OOP | :material-calendar-blank: Planned |
 
-    [:octicons-arrow-right-24: Start Python](coding/python/)
+    [:octicons-arrow-right-24: Start Python](coding/python/index.md)
 
--   🤖 **Robotics & Arduino**
+-   :fontawesome-solid-microchip:{ .lg .middle } **Robotics & Arduino**
 
     ---
 
@@ -94,16 +96,18 @@ to learn by building real things.
 
     **4 Modules · Beginner**
 
+    &lt;div class="progress-bar"&gt;&lt;div class="progress-bar-fill" style="width: 25%"&gt;&lt;/div&gt;&lt;/div&gt;
+
     | Module | Status |
     |--------|--------|
-    | 01 — Foundations | ✅ Ready |
-    | 02 — Sensors | 📅 Planned |
-    | 03 — Actuators | 📅 Planned |
-    | 04 — Real World | 📅 Planned |
+    | 01 — Foundations | :material-check-circle: Ready |
+    | 02 — Sensors | :material-calendar-blank: Planned |
+    | 03 — Actuators | :material-calendar-blank: Planned |
+    | 04 — Real World | :material-calendar-blank: Planned |
 
-    [:octicons-arrow-right-24: Start Robotics](robotics/)
+    [:octicons-arrow-right-24: Start Robotics](robotics/index.md)
 
--   🎮 **PictoBlox & AI**
+-   :fontawesome-solid-gamepad:{ .lg .middle } **PictoBlox & AI**
 
     ---
 
@@ -115,16 +119,18 @@ to learn by building real things.
 
     **4 Modules · Beginner**
 
+    &lt;div class="progress-bar"&gt;&lt;div class="progress-bar-fill" style="width: 0%"&gt;&lt;/div&gt;&lt;/div&gt;
+
     | Module | Status |
     |--------|--------|
-    | 01 — Introduction | 📅 Planned |
-    | 02 — Motion & Events | 📅 Planned |
-    | 03 — Sensors | 📅 Planned |
-    | 04 — AI Features | 📅 Planned |
+    | 01 — Introduction | :material-calendar-blank: Planned |
+    | 02 — Motion & Events | :material-calendar-blank: Planned |
+    | 03 — Sensors | :material-calendar-blank: Planned |
+    | 04 — AI Features | :material-calendar-blank: Planned |
 
-    [:octicons-arrow-right-24: Explore PictoBlox](coding/pictoblox/)
+    [:octicons-arrow-right-24: Explore PictoBlox](coding/pictoblox/index.md)
 
--   📚 **Resources**
+-   :fontawesome-solid-book:{ .lg .middle } **Resources**
 
     ---
 
@@ -135,46 +141,46 @@ to learn by building real things.
 
     | Resource | Status |
     |--------|--------|
-    | Python Cheatsheet | 🚧 Soon |
-    | Arduino Pin Reference | 🚧 Soon |
-    | Diagrams Library | 📅 Planned |
+    | Python Cheatsheet | :material-progress-clock: Soon |
+    | Arduino Pin Reference | :material-progress-clock: Soon |
+    | Diagrams Library | :material-calendar-blank: Planned |
 
-    [:octicons-arrow-right-24: Browse Resources](resources/)
+    [:octicons-arrow-right-24: Browse Resources](resources/index.md)
 
-</div>
+&lt;/div&gt;
 
 ---
 
 ## Platform at a Glance
 
-<div class="stats-row" markdown>
+&lt;div class="stats-row" markdown&gt;
 
-<div class="stat" markdown>
-<span class="stat-n">3</span>
-<span class="stat-l">Tracks</span>
-</div>
+&lt;div class="stat" markdown&gt;
+&lt;span class="stat-n"&gt;3&lt;/span&gt;
+&lt;span class="stat-l"&gt;Tracks&lt;/span&gt;
+&lt;/div&gt;
 
-<div class="stat" markdown>
-<span class="stat-n">15+</span>
-<span class="stat-l">Lessons</span>
-</div>
+&lt;div class="stat" markdown&gt;
+&lt;span class="stat-n"&gt;15+&lt;/span&gt;
+&lt;span class="stat-l"&gt;Lessons&lt;/span&gt;
+&lt;/div&gt;
 
-<div class="stat" markdown>
-<span class="stat-n">10+</span>
-<span class="stat-l">Projects</span>
-</div>
+&lt;div class="stat" markdown&gt;
+&lt;span class="stat-n"&gt;10+&lt;/span&gt;
+&lt;span class="stat-l"&gt;Projects&lt;/span&gt;
+&lt;/div&gt;
 
-<div class="stat" markdown>
-<span class="stat-n">3</span>
-<span class="stat-l">Capstones</span>
-</div>
+&lt;div class="stat" markdown&gt;
+&lt;span class="stat-n"&gt;3&lt;/span&gt;
+&lt;span class="stat-l"&gt;Capstones&lt;/span&gt;
+&lt;/div&gt;
 
-<div class="stat" markdown>
-<span class="stat-n">Free</span>
-<span class="stat-l">Always</span>
-</div>
+&lt;div class="stat" markdown&gt;
+&lt;span class="stat-n"&gt;Free&lt;/span&gt;
+&lt;span class="stat-l"&gt;Always&lt;/span&gt;
+&lt;/div&gt;
 
-</div>
+&lt;/div&gt;
 
 ---
 
@@ -182,18 +188,20 @@ to learn by building real things.
 
 !!! abstract "The lesson structure — same every time"
 
-    ```
-    ① Objectives    → What you will be able to do
-    ② Concept       → Plain-language explanation
-    ③ Analogy       → Real-world comparison
-    ④ Code Example  → Working, commented code
-    ⑤ Activity      → Step-by-step guided build
-    ⑥ Exercise      → Solo practice task
-    ⑦ Challenge     → Harder extension problem
-    ⑧ Quiz          → 5-question self-check
-    ⑨ Summary       → Key takeaways table
-    ⑩ Next Lesson   → Where to go next
-    ```
+    &lt;div class="lesson-flow" markdown&gt;
+
+    1. **Objectives** — What you will be able to do
+    2. **Concept** — Plain-language explanation
+    3. **Analogy** — Real-world comparison
+    4. **Code Example** — Working, commented code
+    5. **Activity** — Step-by-step guided build
+    6. **Exercise** — Solo practice task
+    7. **Challenge** — Harder extension problem
+    8. **Quiz** — 5-question self-check
+    9. **Summary** — Key takeaways table
+    10. **Next Lesson** — Where to go next
+
+    &lt;/div&gt;
 
     You always know what to expect.
     No confusion. No guessing. No information dumps.
@@ -210,19 +218,18 @@ to learn by building real things.
 
     | Track | Capstone Project |
     |-------|-----------------|
-    | 🐍 Python | Profile Generator App |
-    | 🤖 Robotics | Smart Distance Alert System |
-    | 🎮 PictoBlox | Animated Game with Score & Levels |
+    | :fontawesome-brands-python: Python | Profile Generator App |
+    | :fontawesome-solid-microchip: Robotics | Smart Distance Alert System |
+    | :fontawesome-solid-gamepad: PictoBlox | Animated Game with Score & Levels |
 
 ---
 
 ## Start Now
 
-=== "🐍 I want to learn Python"
+=== ":fontawesome-brands-python: I want to learn Python"
 
     !!! tip "No installation needed"
-        Use [Replit](https://replit.com) — free, online, works on any device.
-        Or install VS Code + Python for a professional offline setup.
+        Use our built-in code runner — or [Replit](https://replit.com) for a full online IDE.
 
     **Your path:**
 
@@ -234,9 +241,9 @@ to learn by building real things.
                             Capstone Project
     ```
 
-    [Begin Lesson 01 — Welcome to Python](coding/python/module-01-basics/lesson-01/){ .md-button .md-button--primary }
+    [Begin Lesson 01 — Welcome to Python](coding/python/module-01-basics/lesson-01.md){ .md-button .md-button--primary }
 
-=== "🤖 I want to learn Robotics"
+=== ":fontawesome-solid-microchip: I want to learn Robotics"
 
     !!! info "What you need before starting"
         - Arduino Uno board
@@ -251,13 +258,13 @@ to learn by building real things.
     to Robotics
     ```
 
-    [Begin Lesson 01 — Introduction to Robotics](robotics/module-01-foundations/lesson-01/){ .md-button .md-button--primary }
+    [Begin Lesson 01 — Introduction to Robotics](robotics/module-01-foundations/lesson-01.md){ .md-button .md-button--primary }
 
-=== "📚 I just need resources"
+=== ":fontawesome-solid-book: I just need resources"
 
     Quick reference materials for all tracks:
 
-    [Open Resource Library](resources/){ .md-button .md-button--primary }
+    [Open Resource Library](resources/index.md){ .md-button .md-button--primary }
 
 ---
 
@@ -278,10 +285,10 @@ to learn by building real things.
 
 ---
 
-<div align="center" markdown>
+&lt;div align="center" markdown&gt;
 
 *Open-source · Free forever · Built with
 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) ·
 [View on GitHub](https://github.com/MohanGC07/code-core-learning-system)*
 
-</div>
+&lt;/div&gt;
