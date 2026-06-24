@@ -12,22 +12,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Clean workspace
-        run: |
-          rm -rf *
-          rm -rf .*
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Verify overrides folder
-        run: |
-          echo "=== Contents of docs/overrides ==="
-          ls -la docs/overrides/
-          echo "=== Any README files? ==="
-          find . -name "README.md" -path "*/overrides/*" || echo "No overrides README found"
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -36,16 +24,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --upgrade mkdocs-material[imaging]
-          pip install --upgrade mkdocs-awesome-pages-plugin
-          pip install --upgrade mkdocs-minify-plugin
+          pip install mkdocs-material
+          pip install mkdocs-awesome-pages-plugin
+          pip install mkdocs-minify-plugin
 
-      - name: Verify mkdocs.yml
+      - name: Ensure overrides folder exists
         run: |
-          echo "=== Line 70-76 ==="
-          sed -n '70,76p' mkdocs.yml
-          echo "=== Any python/name tags? ==="
-          grep -n "python/name" mkdocs.yml || echo "None found"
+          mkdir -p docs/overrides
+          touch docs/overrides/.gitkeep
 
       - name: Configure Git
         run: |

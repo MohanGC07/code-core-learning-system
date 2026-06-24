@@ -26,20 +26,16 @@ theme:
     code: JetBrains Mono
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.indexes
     - navigation.footer
-    - navigation.path
     - search.highlight
-    - search.share
     - search.suggest
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
-    - content.tooltips
     - announce.dismiss
     - header.autohide
     - toc.follow
@@ -80,33 +76,17 @@ plugins:
   - awesome-pages
   - minify:
       minify_html: true
-  - social:
-      cards: true
-      cards_layout_options:
-        background_color: "#5E35B1"
-        color: "#FFFFFF"
 
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
   - assets/js/mermaid-init.js
-  - https://pyscript.net/releases/2024.1.1/core.js
-  - assets/js/pyscript-init.js
 
 extra_css:
   - assets/css/extra.css
-  - https://pyscript.net/releases/2024.1.1/core.css
 
 extra:
   generator: false
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/MohanGC07/code-core-learning-system
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/mohangc
-    - icon: fontawesome/solid/envelope
-      link: mailto:mohan@example.com
   copyright: Copyright &copy; 2026 Mohan G.C
-# Build trigger: 06/23/2026 20:23:22
