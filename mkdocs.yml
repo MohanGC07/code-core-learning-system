@@ -1,4 +1,5 @@
-site_name: Code & Core Learning System
+# ✅ Make sure the very first line reads:
+site_name: Code & Core Learning System   # NOT "name:"
 site_url: https://mohangc07.github.io/code-core-learning-system/
 site_description: Learn Coding, Robotics, AI and Technology step by step
 site_author: Mohan G.C
@@ -7,7 +8,7 @@ docs_dir: docs
 
 theme:
   name: material
-  custom_dir: docs/overrides
+  custom_dir: overrides   # ✅ FIXED — was: docs/overrides
   palette:
     - scheme: default
       primary: deep purple
@@ -54,9 +55,16 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.tabbed
-  - pymdownx.superfences
-  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist
   - pymdownx.keys
   - pymdownx.mark

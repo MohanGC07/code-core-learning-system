@@ -28,10 +28,38 @@ jobs:
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-minify-plugin
 
-      - name: Ensure overrides folder exists
+      - name: Ensure required folders and fallback assets exist
         run: |
-          mkdir -p docs/overrides
-          touch docs/overrides/.gitkeep
+          # ✅ Overrides at ROOT level (not inside docs/)
+          mkdir -p overrides
+
+          # ✅ Ensure asset folders exist
+          mkdir -p docs/assets/css
+          mkdir -p docs/assets/js
+          mkdir -p docs/assets/images
+
+          # ✅ Create fallback extra.css if missing
+          if [ ! -f docs/assets/css/extra.css ]; then
+            echo "/* Custom styles placeholder */" > docs/assets/css/extra.css
+          fi
+
+          # ✅ Create fallback mermaid-init.js if missing
+          if [ ! -f docs/assets/js/mermaid-init.js ]; then
+            cat > docs/assets/js/mermaid-init.js << 'JSEOF'
+          document$.subscribe(() => {
+            mermaid.initialize({
+              startOnLoad: false,
+              theme: document.documentElement.getAttribute('data-md-color-scheme') === 'slate' ? 'dark' : 'default'
+            });
+            mermaid.run({ querySelector: '.mermaid' });
+          });
+          JSEOF
+          fi
+
+          # ✅ Create placeholder logo/favicon if missing (prevents 404 errors)
+          if [ ! -f docs/assets/images/logo.svg ]; then
+            echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#7c3aed"/></svg>' > docs/assets/images/logo.svg
+          fi
 
       - name: Configure Git
         run: |
@@ -39,4 +67,4 @@ jobs:
           git config user.email github-actions@github.com
 
       - name: Deploy
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy --force --clean
