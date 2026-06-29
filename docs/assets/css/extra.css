@@ -14,7 +14,6 @@
   --cc-text-muted: #666666;
   --cc-progress-bg: #e0e0e0;
   --cc-card-shadow: rgba(0, 0, 0, 0.1);
-  --cc-table-header-text: #ffffff;
 }
 
 /* --- Brand Colors (Dark Mode Overrides) --- */
@@ -35,11 +34,12 @@
   color: white;
 }
 
+/* ✅ !important needed — Material sets its own h1 color */
 .hero-block h1 {
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  color: white;
+  color: white !important;
 }
 
 .hero-block p {
@@ -55,9 +55,16 @@
   padding: 0.75rem 2rem;
 }
 
+/* ✅ Added border-color — Material sets a border that clashes */
 .hero-block .md-button--primary {
   background: white !important;
   color: #5e35b1 !important;
+  border-color: white !important;
+}
+
+.hero-block .md-button:not(.md-button--primary) {
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  color: white !important;
 }
 
 /* --- Stats Row --- */
@@ -67,10 +74,17 @@
   gap: 2rem;
   flex-wrap: wrap;
   padding: 2rem;
-  background: var(--cc-bg-subtle);        /* ✅ adapts to dark mode */
+  background: var(--cc-bg-subtle);
   border-radius: 12px;
   margin: 2rem 0;
+}
+
+/* ✅ NEW — was missing entirely; needed for flex column stacking */
+.stat {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .stat-n {
@@ -78,21 +92,25 @@
   font-size: 2rem;
   font-weight: 800;
   color: var(--cc-primary);
+  line-height: 1.2;
 }
 
 .stat-l {
+  display: block;
   font-size: 0.8rem;
-  color: var(--cc-text-muted);            /* ✅ adapts to dark mode */
+  color: var(--cc-text-muted);
   text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.25rem;
 }
 
 /* --- Progress Bars --- */
 .progress-bar {
   width: 100%;
   height: 8px;
-  background: var(--cc-progress-bg);      /* ✅ adapts to dark mode */
+  background: var(--cc-progress-bg);
   border-radius: 4px;
-  margin: 1rem 0;
+  margin: 0.75rem 0;
   overflow: hidden;
 }
 
@@ -103,35 +121,51 @@
 }
 
 /* --- Cards --- */
+/* ✅ Added !important to border-radius and transition */
 .md-typeset .grid.cards > ul > li {
   border-top: 3px solid var(--cc-primary) !important;
-  border-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 8px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
 }
 
 .md-typeset .grid.cards > ul > li:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px var(--cc-card-shadow);  /* ✅ adapts to dark mode */
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 25px var(--cc-card-shadow) !important;
 }
 
 /* --- Lesson Flow --- */
-.lesson-flow ol {
-  list-style: none;
-  padding: 0;
+/* ✅ Higher specificity + CSS counters replace removed list numbers */
+.md-typeset .lesson-flow ol {
+  list-style: none !important;
+  padding-left: 0 !important;
+  counter-reset: lesson-step;
 }
 
-.lesson-flow li {
-  padding: 0.5rem 1rem;
-  border-left: 3px solid var(--cc-primary);
-  margin-bottom: 0.5rem;
+.md-typeset .lesson-flow li {
+  position: relative;
+  padding: 0.6rem 1rem 0.6rem 3rem !important;
+  border-left: 3px solid var(--cc-primary) !important;
+  border-radius: 0 6px 6px 0;
+  background: var(--cc-bg-subtle);
+  margin-bottom: 0.5rem !important;
+  counter-increment: lesson-step;
+}
+
+.md-typeset .lesson-flow li::before {
+  content: counter(lesson-step);
+  position: absolute;
+  left: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--cc-primary);
 }
 
 /* --- Tables --- */
-.md-typeset table th {
-  background: var(--cc-primary);
-  color: var(--cc-table-header-text);
+/* ✅ Both selectors + !important to beat Material's own table th rule */
+.md-typeset table th,
+.md-typeset table:not([class]) th {
+  background: var(--cc-primary) !important;
+  color: #ffffff !important;
 }
-
-/* ✅ REMOVED: .md-header and .md-tabs overrides
-   Material's palette system handles these correctly.
-   Hardcoding them broke the dark/light toggle. */

@@ -5,7 +5,7 @@ hide:
   - toc
 ---
 
-&lt;div class="hero-block" markdown&gt;
+<div class="hero-block" markdown>
 
 # Code & Core Learning System
 
@@ -16,13 +16,13 @@ to learn by building real things.
 [🚀 Start Learning](coding/python/module-01-basics/lesson-01.md){ .md-button .md-button--primary }
 [📚 Browse Tracks](coding/index.md){ .md-button }
 
-&lt;/div&gt;
+</div>
 
 ---
 
 ## Why This Platform?
 
-&lt;div class="grid cards" markdown&gt;
+<div class="grid cards" markdown>
 
 -   :fontawesome-solid-bullseye:{ .lg .middle } **Goal-first lessons**
 
@@ -52,13 +52,13 @@ to learn by building real things.
     Mini projects after each lesson. A capstone project
     after each module. Build a real portfolio as you learn.
 
-&lt;/div&gt;
+</div>
 
 ---
 
 ## Learning Tracks
 
-&lt;div class="grid cards" markdown&gt;
+<div class="grid cards" markdown>
 
 -   :fontawesome-brands-python:{ .lg .middle } **Python Programming**
 
@@ -72,7 +72,7 @@ to learn by building real things.
 
     **5 Modules · Beginner → Intermediate**
 
-    &lt;div class="progress-bar"&gt;&lt;div class="progress-bar-fill" style="width: 20%"&gt;&lt;/div&gt;&lt;/div&gt;
+    <div class="progress-bar"><div class="progress-bar-fill" style="width: 20%"></div></div>
 
     | Module | Status |
     |--------|--------|
@@ -96,7 +96,7 @@ to learn by building real things.
 
     **4 Modules · Beginner**
 
-    &lt;div class="progress-bar"&gt;&lt;div class="progress-bar-fill" style="width: 25%"&gt;&lt;/div&gt;&lt;/div&gt;
+    <div class="progress-bar"><div class="progress-bar-fill" style="width: 25%"></div></div>
 
     | Module | Status |
     |--------|--------|
@@ -119,7 +119,7 @@ to learn by building real things.
 
     **4 Modules · Beginner**
 
-    &lt;div class="progress-bar"&gt;&lt;div class="progress-bar-fill" style="width: 0%"&gt;&lt;/div&gt;&lt;/div&gt;
+    <div class="progress-bar"><div class="progress-bar-fill" style="width: 0%"></div></div>
 
     | Module | Status |
     |--------|--------|
@@ -147,40 +147,35 @@ to learn by building real things.
 
     [:octicons-arrow-right-24: Browse Resources](resources/index.md)
 
-&lt;/div&gt;
+</div>
 
 ---
 
 ## Platform at a Glance
 
-&lt;div class="stats-row" markdown&gt;
-
-&lt;div class="stat" markdown&gt;
-&lt;span class="stat-n"&gt;3&lt;/span&gt;
-&lt;span class="stat-l"&gt;Tracks&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class="stat" markdown&gt;
-&lt;span class="stat-n"&gt;15+&lt;/span&gt;
-&lt;span class="stat-l"&gt;Lessons&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class="stat" markdown&gt;
-&lt;span class="stat-n"&gt;10+&lt;/span&gt;
-&lt;span class="stat-l"&gt;Projects&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class="stat" markdown&gt;
-&lt;span class="stat-n"&gt;3&lt;/span&gt;
-&lt;span class="stat-l"&gt;Capstones&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class="stat" markdown&gt;
-&lt;span class="stat-n"&gt;Free&lt;/span&gt;
-&lt;span class="stat-l"&gt;Always&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
+<!-- ✅ FIXED: Pure HTML — no markdown attribute needed, no <p> tag wrapping -->
+<div class="stats-row">
+  <div class="stat">
+    <span class="stat-n">3</span>
+    <span class="stat-l">Tracks</span>
+  </div>
+  <div class="stat">
+    <span class="stat-n">15+</span>
+    <span class="stat-l">Lessons</span>
+  </div>
+  <div class="stat">
+    <span class="stat-n">10+</span>
+    <span class="stat-l">Projects</span>
+  </div>
+  <div class="stat">
+    <span class="stat-n">3</span>
+    <span class="stat-l">Capstones</span>
+  </div>
+  <div class="stat">
+    <span class="stat-n">Free</span>
+    <span class="stat-l">Always</span>
+  </div>
+</div>
 
 ---
 
@@ -188,7 +183,7 @@ to learn by building real things.
 
 !!! abstract "The lesson structure — same every time"
 
-    &lt;div class="lesson-flow" markdown&gt;
+    <div class="lesson-flow" markdown>
 
     1. **Objectives** — What you will be able to do
     2. **Concept** — Plain-language explanation
@@ -201,7 +196,7 @@ to learn by building real things.
     9. **Summary** — Key takeaways table
     10. **Next Lesson** — Where to go next
 
-    &lt;/div&gt;
+    </div>
 
     You always know what to expect.
     No confusion. No guessing. No information dumps.
@@ -232,63 +227,8 @@ to learn by building real things.
         Use our built-in code runner — or [Replit](https://replit.com) for a full online IDE.
 
     **Your path:**
-
-    ```
     Lesson 01 → Lesson 02 → Lesson 03
-         ↓           ↓           ↓
-      Mini 01     Mini 02     Mini 03
-                                  ↓
-                            Capstone Project
-    ```
-
-    [Begin Lesson 01 — Welcome to Python](coding/python/module-01-basics/lesson-01.md){ .md-button .md-button--primary }
-
-=== ":fontawesome-solid-microchip: I want to learn Robotics"
-
-    !!! info "What you need before starting"
-        - Arduino Uno board
-        - USB cable
-        - [Arduino IDE](https://www.arduino.cc/en/software) installed free
-
-    **Your path:**
-
-    ```
-    Lesson 01 → Mini Project → Capstone
-    Introduction   LED Blink    Smart Alert System
-    to Robotics
-    ```
-
-    [Begin Lesson 01 — Introduction to Robotics](robotics/module-01-foundations/lesson-01.md){ .md-button .md-button--primary }
-
-=== ":fontawesome-solid-book: I just need resources"
-
-    Quick reference materials for all tracks:
-
-    [Open Resource Library](resources/index.md){ .md-button .md-button--primary }
-
----
-
-## How to Use This Platform
-
-!!! question "New here? Read this first"
-
-    | Step | What to do |
-    |------|------------|
-    | 1 | Pick one track — don't start multiple at once |
-    | 2 | Open Module 01 → Lesson 01 |
-    | 3 | Read the lesson with your editor open beside it |
-    | 4 | **Type** the code — never copy-paste |
-    | 5 | Complete the exercise before moving forward |
-    | 6 | Attempt the challenge — it's okay if it's hard |
-    | 7 | Build the mini project after each lesson |
-    | 8 | Build the capstone after finishing all lessons |
-
----
-
-&lt;div align="center" markdown&gt;
-
-*Open-source · Free forever · Built with
-[MkDocs Material](https://squidfunk.github.io/mkdocs-material/) ·
-[View on GitHub](https://github.com/MohanGC07/code-core-learning-system)*
-
-&lt;/div&gt;
+     ↓           ↓           ↓
+    Mini 01     Mini 02     Mini 03
+                              ↓
+                        Capstone Project
